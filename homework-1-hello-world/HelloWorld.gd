@@ -15,7 +15,7 @@ func _ready():
 		# symbol at the start of the dashed lines
     """ 
 	#---------------------
-	
+	print("Hello, World!")
 	#----------------------
 
 	"""
@@ -26,7 +26,7 @@ func _ready():
 		- Remember: indentation matters!
 	"""
 	#---------------------
-	
+	print("I'm not quite sure what to write here.")
 	#----------------------
 	
 	"""
@@ -35,6 +35,7 @@ func _ready():
 		provided blank space
 	"""
 	#---------------------
-	
+	push_warning()
+	push_error()
 	#----------------------
 	
